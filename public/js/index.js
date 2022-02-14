@@ -18,7 +18,6 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
         alert("Opps! Verifique o usuário ou a senha.");
         return;
     }
-alert(account);
     if (account) {
         if (account.password !== password) {
             alert("Opps! Verifique o usuário ou a senha.");
