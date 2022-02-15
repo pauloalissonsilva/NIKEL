@@ -152,7 +152,7 @@ function getTotal() {
         if (item.type == "1") {
             total += item.value;
         } else {
-            total - + item.value;
+            total -= item.value;
         }
     });
 
